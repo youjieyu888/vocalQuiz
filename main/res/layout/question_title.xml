@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/question"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/q_1_text"
+        android:labelFor="@+id/q_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question #1"/>
+    <EditText
+        android:id="@+id/q_1_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/q_1_ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="Add Questions"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add_question_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add question" />
+
+    <Button
+        android:id="@+id/remove_question_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="remove question" />
+
+    <Button
+        android:id="@+id/add_incorrect_question_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next" />
+</LinearLayout>
